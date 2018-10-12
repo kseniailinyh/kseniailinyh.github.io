@@ -3,17 +3,19 @@
 }
 
 body, html {
-  height: 100%;
+  color: #0e0e0e;
   font-family: 'Roboto Mono', monospace;
   font-size: 22px;
   font-style: normal;
-  font-weight: normal;
-  line-height: normal;
-  margin: 2vw 4vw 1vw;
+  font-weight: 300;
+  line-height: 1.5;
+  margin: 2vw 4vw 0;
 }
 
 a {
   color: #0e0e0e;
+  text-decoration: none;
+  border-bottom: 1px solid gray;
 }
 
 a:hover {
@@ -24,14 +26,14 @@ a:hover {
   max-width: 50%;
 }
 
-.bg {
+ .bg {
   position: absolute;
   top: 0;
   right: 0;
-  background-image: url("back.jpg");
+  background-image: url("back.jpg"); 
   height: 100%;
   width: 70%;
-  background-position: right top;
+  background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -9999;

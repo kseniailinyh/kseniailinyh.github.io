@@ -26,15 +26,11 @@ a:hover {
   max-width: 50%;
 }
 
- .bg {
-  position: absolute;
+.bg img {
+  width: 70%;
+  height: auto;
+  position: fixed;
   top: 0;
   right: 0;
-  background-image: url("back.jpg"); 
-  height: 100%;
-  width: 70%;
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: cover;
   z-index: -9999;
 }

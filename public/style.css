@@ -3,13 +3,22 @@
 }
 
 body, html {
+  background-size: 120vw auto;
+  background: url(back.jpg) no-repeat 0 -15vw;
   color: #0e0e0e;
   font-family: 'Roboto Mono', monospace;
-  font-size: 22px;
+  font-size: 1.5vw;
   font-style: normal;
   font-weight: 300;
   line-height: 1.5;
-  margin: 2vw 4vw 0;
+  padding: 2vw 4vw 4vw;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 1.75em;
+    padding-left: 1vw;
+  }
 }
 
 a {
@@ -23,14 +32,5 @@ a:hover {
 }
 
 .column {
-  max-width: 50%;
-}
-
-.bg img {
-  width: 70%;
-  height: auto;
-  position: fixed;
-  top: 0;
-  right: 0;
-  z-index: -9999;
+  max-width: 40vw;
 }

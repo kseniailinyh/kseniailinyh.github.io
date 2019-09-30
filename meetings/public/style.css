@@ -1,0 +1,146 @@
+body {
+	background-color: #FFFEFC;
+	margin: 0;
+	padding: 0;
+	font-family: 'Cormorant', serif;
+	color: #151515;
+	font-size: calc(18px + 0.35vw);
+	line-height: calc(20px + 1vw);
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 2.3em;
+	line-height: calc(32px + 2vw);
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1.6em;
+  line-height: calc(20px + 2vw);
+	margin-top: 60px;
+}
+
+a {
+	color: #151515;
+	text-decoration: none;
+	border-bottom: 1px solid rgb(21,21,21,.3);
+}
+
+a:hover {
+	opacity: 0.7;
+}
+
+.link-index {
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+
+.main-picture {
+	margin: 0 auto;
+	background-image: url('back-01.png');
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	max-width: 600px;
+	height: 300px;
+}
+
+.fotorama-link {
+	position: relative;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+
+.link-to-read {
+	border: 1px solid #151515;
+	border-radius: 48px;
+	padding: 12px 24px;
+	background-color: #FFFEFC;
+}
+
+.link-to-read:hover {
+	background-color: #151515;
+	color: #FFFEFC;
+	opacity: 1;
+}
+
+.text {
+	text-align: left;
+}
+
+.avatar {
+	border-radius: 50%;
+	width: 100px;
+}
+
+.content {
+	margin: 6vw auto 12vw;
+	text-align: center;
+	width: 50%;
+	max-width: 800px;
+}
+
+.fotorama-content {
+	margin: 0 auto;
+	padding-top: 70px;
+	text-align: center;
+	width: 70%;
+}
+
+.fotorama {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.wrapper {
+	margin: 0 5vw;
+}
+
+.fotorama img {
+	margin-top: 50px;
+	width: 100%
+}
+
+.caption {
+	font-style: italic;
+	font-weight: normal;
+	margin-top: 10px;
+}
+
+.cover {
+	width: 100%;
+}
+
+@media (max-width: 768px) {
+		.content {
+			width: 80%;
+		}
+
+		.fotorama-content {
+			width: 80%;
+		}
+
+		.main-picture {
+			height: 42vw;
+		}
+}
+
+@media (max-width: 500px) {
+		.content {
+			width: 80%;
+		}
+
+		.fotorama-content {
+			width: 100%;
+		}
+
+		.wrapper {
+			margin: 0 8vw;
+		}
+}

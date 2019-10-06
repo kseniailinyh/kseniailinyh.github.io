@@ -1,21 +1,29 @@
 body {
 	background-color: #FFFEFC;
-	margin: 0;
-	padding: 0;
-	font-family: 'Cormorant', serif;
 	color: #151515;
-	font-size: calc(18px + 0.35vw);
-	line-height: calc(20px + 1vw);
+	font-family: 'Cormorant', serif;
+	font-size: 20pt;
+	line-height: 1.5em;
+	margin: 3em auto 3em;
+	max-width: 1024px;
+	padding: 0;
 }
 
 h1 {
 	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	font-weight: 700;
-	font-size: 2.3em;
-	line-height: calc(32px + 2vw);
+	font-size: 2.5em;
+	line-height: 1.25em;
+	margin-top: 1em;
+	margin-bottom: 0.25em;
 	text-align: center;
-	margin-bottom: 10px;
+}
+
+.caption {
+	font-style: italic;
+	margin-top: 0;
+	text-align: center;
 }
 
 h2 {
@@ -23,18 +31,26 @@ h2 {
 	font-style: normal;
 	font-weight: 700;
 	font-size: 1.6em;
-  line-height: calc(20px + 2vw);
-	margin-top: 60px;
+	line-height: 1.5em;
+	margin-bottom: -0.25em;
 }
 
 a {
 	color: #151515;
 	text-decoration: none;
-	border-bottom: 1px solid rgb(21,21,21,.3);
+	border-bottom: 1px solid rgba(21,21,21,0.3);
 }
 
 a:hover {
 	opacity: 0.7;
+}
+
+.header, .cards {
+	margin: auto 3em;
+}
+
+.main-picture {
+	text-align: center;
 }
 
 .link-index {
@@ -42,105 +58,53 @@ a:hover {
 	text-transform: uppercase;
 }
 
-.main-picture {
-	margin: 0 auto;
-	background-image: url('back-01.png');
-	background-size: 100% auto;
-	background-repeat: no-repeat;
-	max-width: 600px;
-	height: 300px;
-}
-
-.fotorama-link {
-	position: relative;
-	margin: 0 auto;
-	padding-top: 100px;
-}
-
-.link-to-read {
-	border: 1px solid #151515;
-	border-radius: 48px;
-	padding: 12px 24px;
-	background-color: #FFFEFC;
-}
-
-.link-to-read:hover {
-	background-color: #151515;
-	color: #FFFEFC;
-	opacity: 1;
-}
-
-.text {
-	text-align: left;
+.img-wrapper {
+	clear: left;
+	text-align: center;
+	margin-top: 2em;
 }
 
 .avatar {
 	border-radius: 50%;
-	width: 100px;
-}
-
-.content {
-	margin: 6vw auto 12vw;
-	text-align: center;
-	width: 50%;
-	max-width: 800px;
-}
-
-.fotorama-content {
-	margin: 0 auto;
-	padding-top: 70px;
-	text-align: center;
-	width: 70%;
-}
-
-.fotorama {
-	width: 80%;
-	margin: 0 auto;
-}
-
-.wrapper {
-	margin: 0 5vw;
-}
-
-.fotorama img {
-	margin-top: 50px;
-	width: 100%
-}
-
-.caption {
-	font-style: italic;
-	font-weight: normal;
-	margin-top: 10px;
+	width: 150px;
 }
 
 .cover {
 	width: 100%;
 }
 
-@media (max-width: 768px) {
-		.content {
-			width: 80%;
-		}
-
-		.fotorama-content {
-			width: 80%;
-		}
-
-		.main-picture {
-			height: 42vw;
-		}
+ul.menu {
+	list-style: none;
+	margin-top: 2em;
+	padding: 0;
+	text-align: center;
 }
 
-@media (max-width: 500px) {
-		.content {
-			width: 80%;
-		}
+ul.menu li {
+	margin-bottom: 0.5em;
+}
 
-		.fotorama-content {
-			width: 100%;
-		}
+img {
+	width: 80%;
+}
 
-		.wrapper {
-			margin: 0 8vw;
-		}
+.likely {
+	text-align: center;
+	width: 100%;
+}
+
+@media (max-width: 1024px) {
+	.header, .cards {
+		margin: auto 1.5em;
+	}
+
+	h1 {
+		font-size: 1.8em;
+		line-height: 1.1em;
+	}
+
+	h2 {
+		font-size: 1.2em;
+		line-height: 1.2em;
+	}
 }

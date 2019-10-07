@@ -33,6 +33,7 @@ h2 {
 	font-size: 1.6em;
 	line-height: 1.5em;
 	margin-bottom: -0.25em;
+	margin-top: 1.5em;
 }
 
 a {
@@ -106,5 +107,9 @@ img {
 	h2 {
 		font-size: 1.2em;
 		line-height: 1.2em;
+	}
+
+	img {
+		width: 95%;
 	}
 }

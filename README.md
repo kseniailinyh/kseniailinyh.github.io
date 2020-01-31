@@ -1,7 +1,9 @@
 # Ксения Ильиных
 ### Продуктовый дизайнер
 
-[Medium](https://medium.com/@ksenia_ilinyh) | [Facebook](https://www.facebook.com/ksenia.ilinyh) | [Почта](mailto:ksenia.ilinyh@gmail.com)
+[Medium](https://medium.com/@ksenia_ilinyh) | 
+[Instagram](https://www.instagram.com/ksenia_ilinyh/) | 
+[Почта](mailto:ksenia.ilinyh@gmail.com)
 
 Умею разбираться в сложных вещах и объяснять их простым языком. Работаю [в Контуре](https://kontur.ru/) и помогаю делать продукты красивыми и удобными. 
 

@@ -26,3 +26,5 @@
 — [Чем занимаются дизайнеры интерфейсов](https://www.youtube.com/watch?v=yoMbmE35Vw4)
 
 — [Про авантюрное тестирование](https://www.youtube.com/watch?v=t_zKEjuiins)
+
+![Avatar](public/back.jpg)

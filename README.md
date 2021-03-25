@@ -7,7 +7,7 @@
 
 Умею разбираться в сложных вещах и объяснять их простым языком. Работаю [в Контуре](https://kontur.ru/) и помогаю делать продукты красивыми и удобными. 
 
-Сделала «[Этикет встреч](https://kseniailinyh.github.io/awesome-meetings-kontur/)» и рассылку «[Месяц осознанности](http://mindfulmonth.io/)». 
+Сделала «[Этикет встреч](https://ksenia.design/meetings/)» и рассылку «[Месяц осознанности](https://ksenia.design/mindfulmonth/)». 
 
 Пишу про работу: 
 

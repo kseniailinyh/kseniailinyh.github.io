@@ -1,13 +1,12 @@
 # Ксения Ильиных
 ### Продуктовый дизайнер
+### [Портфолио](https://glacier-jaborosa-c5b.notion.site/c280301e679145418ca3d69026facecd)
 
-[Medium](https://medium.com/@ksenia_ilinyh) | 
-[Instagram](https://www.instagram.com/ksenia_ilinyh/) | 
-[Почта](mailto:ksenia.ilinyh@gmail.com)
+Я занимаюсь продуктовым дизайном 9 лет. В 2017 году стала дизайн-лидом, в 2019 создала в Контуре отдел дизайнеров для специальных задач.
 
-Умею разбираться в сложных вещах и объяснять их простым языком, делаю продукты красивыми и удобными. 
+У меня много опыта в проектировании сложных b2b систем: корпоративного биллинга, системы для проведения финанализа компании, платформы онлайн-обучения для бухгалтеров.
 
-Сделала «[Этикет встреч](https://kseniailinyh.github.io/meetings/)» и рассылку «[Месяц осознанности](https://kseniailinyh.github.io/mindfulmonth/)». 
+Умею разбираться в сложных вещах и объяснять их простым языком, делаю продукты красивыми и удобными.
 
 Пишу про работу: 
 
@@ -26,5 +25,12 @@
 — [Чем занимаются дизайнеры интерфейсов](https://www.youtube.com/watch?v=yoMbmE35Vw4)
 
 — [Про авантюрное тестирование](https://www.youtube.com/watch?v=t_zKEjuiins)
+
+Помимо дизайна люблю делать небольшие пет-проекты: сделала «[Этикет встреч](https://kseniailinyh.github.io/meetings/)» и рассылку «[Месяц осознанности](https://kseniailinyh.github.io/mindfulmonth/)». 
+
+[Linkedin](https://www.linkedin.com/in/ksenia-ilinyh-10439818a/) | 
+[Medium](https://medium.com/@ksenia_ilinyh) | 
+[Instagram](https://www.instagram.com/ksenia_ilinyh/) | 
+[Почта](mailto:ksenia.ilinyh@gmail.com)
 
 ![Avatar](public/back.jpg)

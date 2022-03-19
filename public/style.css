@@ -5,7 +5,7 @@
 body, html {
   color: #0e0e0e;
   font-family: 'Roboto Mono', monospace;
-  font-size: 1.5vw;
+  font-size: 1.7vw;
   font-style: normal;
   font-weight: 300;
   line-height: 1.5;
@@ -22,8 +22,6 @@ body, html {
 
 a {
   color: #0e0e0e;
-  text-decoration: none;
-  border-bottom: 1px solid gray;
 }
 
 a:hover {
@@ -32,7 +30,7 @@ a:hover {
 
 .column {
   padding: 4vw 5vw;
-  max-width: 40vw;
+  max-width: 45vw;
 }
 
 @media (max-width: 1000px) {
@@ -43,7 +41,7 @@ a:hover {
   .bg img {
     position: relative;
     width: 90%;
-    margin: 4vw 5vw;    
+    margin: 4vw 5vw;
   }
 
   .column {

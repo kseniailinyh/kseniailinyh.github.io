@@ -28,7 +28,7 @@
 
 Помимо дизайна люблю делать небольшие пет-проекты: сделала «[Этикет встреч](https://kseniailinyh.github.io/meetings/)» и рассылку «[Месяц осознанности](https://kseniailinyh.github.io/mindfulmonth/)».
 
-[Linkedin](https://www.linkedin.com/in/ksenia-ilinyh-10439818a/) |
+[Linkedin](https://www.linkedin.com/in/kseniailinyh/) |
 [Medium](https://medium.com/@ksenia_ilinyh) |
 [Instagram](https://www.instagram.com/ksenia_ilinyh/) |
 [Почта](mailto:ksenia.ilinyh@gmail.com)

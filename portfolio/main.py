@@ -40,7 +40,7 @@ def download_image(url: str, image_id: str) -> str:
     extention = os.path.splitext(urlparse(url).path)[1]
     print(f"Downloading image {url}, extention {extention}")
     image_name = f"{image_id}{extention}"
-    urllib.request.urlretrieve(url, f"docs/img/{image_name}")
+    urllib.request.urlretrieve(url, f"img/{image_name}")
     return image_name
 
 
@@ -98,7 +98,7 @@ def write_built_pages(built):
 
 
 def write_html(page_id: str, html: str):
-    with open(f"docs/{get_html_file_name(page_id)}.html", "w+") as f:
+    with open(f"{get_html_file_name(page_id)}.html", "w+") as f:
         return f.write(html)
 
 

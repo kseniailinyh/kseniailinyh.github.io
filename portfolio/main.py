@@ -107,7 +107,7 @@ def wrap(content: str, tag: str) -> str:
 
 
 def wrap_link(content: str, link: str) -> str:
-    return f'<a href="{link}" target="_blank">{content}</a>'
+    return f'<a href="{link}"">{content}</a>'
 
 
 def get_page_link(page_id):
@@ -231,7 +231,7 @@ def build_html(page, page_id: str) -> str:
     print(f"Page id: {page_id}, title: {title}")
 
     if page_id != main_page_id:
-        home_link = f'<div class="home-link">{get_link("./", "Домой", "🏡")}</div>'
+        home_link = f'<div class="home-link">{get_link("../", "Back", "")}</div>'
     else:
         home_link = ""
 
@@ -240,19 +240,20 @@ def build_html(page, page_id: str) -> str:
         '<html>' +
         '<head>' +
         '<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0"></meta>' +
-        '<meta name="title" content="Nick is typing..."></meta>' +
-        '<meta name="description" content="Personal page with not-so-random shit"></meta>'
+        '<meta name="title" content="Ksenia"></meta>' +
+        '<meta name="description" content="Product Designer"></meta>'
         f'<title>{title}</title>' +
-        '<link rel="icon" href="favicon.png"></link>' +
-        '<link rel="apple-touch-icon" href="favicon.png"></link>' +
-        '<link rel="stylesheet" href="bear.css"></link>' +
+        '<link rel="shortcut icon" href="favicon.ico"></link>' +
+        '<link rel="apple-touch-icon" href="favicon.ico"></link>' +
+        '<link rel="stylesheet" href="style.css"></link>' +
         '</head>' +
         '<body>' +
-        home_link +
-        "<div class='main'>"
+        "<div class='main'>" +
+        home_link
     )
-    html += f"<h1 class='page_title' style='margin-top: 0.5em;'>{icon} {title}</h1>"
+    html += f"<h1 class='page_title' style='margin-top: 0.5em;'>{title}</h1>"
     html += build_children(page_id)
+    html += home_link
     html += "</div></body></html>"
     return html
 

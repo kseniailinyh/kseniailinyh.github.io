@@ -1,14 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 * {
   margin: 0 0;
 }
 
 body, html {
   color: #0e0e0e;
-  font-family: 'Roboto Mono', monospace;
-  font-size: 1.7vw;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 1.5;
+  font-family: 'Inter', sans-serif;
+  font-size: 2vw;
+  line-height: 1.6;
 }
 
 .bg img {
@@ -30,7 +30,7 @@ a:hover {
 
 .column {
   padding: 4vw 5vw;
-  max-width: 45vw;
+  max-width: 48vw;
 }
 
 @media (max-width: 1000px) {

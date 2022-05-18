@@ -1,7 +1,7 @@
 # Ksenia
 Product Designer
 
-[CV](https://kseniailinyh.github.io/portfolio/cv.html) | [Linkedin](https://www.linkedin.com/in/kseniailinykh/) | [Email](mailto:ksenia.ilinyh@gmail.com)
+[CV](https://kseniailinyh.github.io/portfolio/Resume-Ksenia-Ilinykh.pdf) | [Linkedin](https://www.linkedin.com/in/kseniailinykh/) | [Email](mailto:ksenia.ilinyh@gmail.com)
 
 I’m a product designer with over 9 years of SaaS experience working on B2B products: internal billing, CRM, financial analysis system. I have worked in small and big product teams, in a startup, and in an established product.
 

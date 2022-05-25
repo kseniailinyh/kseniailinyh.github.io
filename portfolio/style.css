@@ -10,15 +10,15 @@
 }
 
 .main {
-    max-width: 48vw;
+    max-width: 64vw;
     padding: 4vw 5vw;
+    margin: 0 auto;
 }
 
 body {
-    margin: auto;
     font-family: 'Inter', sans-serif;
     font-size: 2vw;
-    line-height: 1.6;
+    line-height: 1.3;
     text-align: left;
     background-color: #fff;
     word-wrap: break-word;
@@ -32,8 +32,9 @@ h3,
 h4,
 h5,
 h6 {
-    font-size: 2vw;
-    font-weight: 300;
+  font-size: 2vw;
+  line-height: 1.3;
+  font-weight: 300;
 }
 
 p, div, img {
@@ -69,18 +70,16 @@ img {
     left: 0;
     width: 100%;
     height: 100%;
-    max-width: 708px;
-    max-height: 398px;
 }
 
 
 @media (max-width: 1000px) {
   body, h1, h2, h3, h4, h5, h6 {
-    font-size: 4vw;
+    font-size: 3vw;
   }
 
   .main {
-    max-width: 60vw;
+    max-width: 72vw;
   }
 }
 

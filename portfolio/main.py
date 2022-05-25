@@ -256,12 +256,13 @@ def build_html(page, page_id: str) -> str:
         '<link rel="stylesheet" href="style.css"></link>' +
         '</head>' +
         '<body>' +
-        "<div class='main'>" +
-        home_link
+        home_link +
+        "<div class='main'>"
+
     )
     html += f"<h1 class='page_title' style='margin-top: 0.5em;'>{title}</h1>"
     html += build_children(page_id)
-    html += home_link
+    # html += home_link
     html += "</div></body></html>"
     return html
 

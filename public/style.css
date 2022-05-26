@@ -75,7 +75,20 @@ a:hover {
 }
 
 @media (max-width: 600px) {
+  body {
+    font-size: 5vw;
+  }
+
   .column {
     max-width: none;
+    padding: 16vw 5vw;
+  }
+
+  .header {
+    margin: 0 5vw;
+  }
+
+  .card {
+    width: 100%;
   }
 }

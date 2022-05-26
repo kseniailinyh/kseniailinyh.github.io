@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
-
 .home-link {
   position: fixed;
   top: 2vw;
@@ -35,11 +34,6 @@ h6 {
   font-weight: 600;
 }
 
-/* p, div, img {
-  margin-top: 1.0em;
-  margin-bottom: 1.0em;
-} */
-
 a {
   color: #0e0e0e;
 }
@@ -47,11 +41,6 @@ a {
 a:hover {
   font-style: italic;
 }
-
-/* .page-link {
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-} */
 
 img {
   max-width: 100%;
@@ -82,7 +71,19 @@ img {
 }
 
 @media (max-width: 600px) {
+  body, h1, h2, h3, h4, h5, h6 {
+    font-size: 5vw;
+  }
+
   .main {
     max-width: none;
+    padding: 16vw 5vw;
   }
+
+  .home-link {
+    position: fixed;
+    top: 2vw;
+    left: 5vw;
+  }
+
 }

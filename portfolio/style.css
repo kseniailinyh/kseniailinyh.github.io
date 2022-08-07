@@ -88,5 +88,14 @@ img {
     top: 2vw;
     left: 5vw;
   }
+}
 
+@media (prefers-color-scheme: dark) {
+    body {
+      background-color: #151515;
+      color: #ddd;
+    }
+    a {
+      color: #ddd;
+    }
 }

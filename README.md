@@ -5,9 +5,7 @@ Product Designer
 
 👋 Hi! I’m Ksenia, a product designer with 9 years of SaaS experience.
 
-I’ve been working on B2B products: internal billing, CRM, financial analysis system. In small and big cross-functional product teams, in startups, and in established products.
-
-I love turning chaos into an easy-to-use interface that solves customers’ problems ✨
+I’ve been working mostly on B2B products: billing, CRM, admin panels, etc. In small and big cross-functional product teams, startups, and established products ✨
 
 [Class](https://kseniailinyh.github.io/portfolio/class.html)
 

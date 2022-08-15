@@ -1,5 +1,5 @@
 # Ksenia
-Product Designer
+Senior Product Designer
 
 [CV](https://kseniailinyh.github.io/portfolio/Resume-Ksenia-Ilinykh.pdf) | [LinkedIn](https://www.linkedin.com/in/kseniailinykh/) | [Email](mailto:ksenia.ilinyh@gmail.com)
 

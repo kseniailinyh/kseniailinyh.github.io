@@ -3,12 +3,14 @@ Product Designer
 
 [CV](https://kseniailinyh.github.io/portfolio/Resume-Ksenia-Ilinykh.pdf) | [LinkedIn](https://www.linkedin.com/in/kseniailinykh/) | [Email](mailto:ksenia.ilinyh@gmail.com)
 
-I’m Ksenia, product designer with 9 years of experience working mostly on B2B products. I love turning chaos into an easy-to-use interface that solves customers’ problems.
+I’m Ksenia, a mischievous product designer with 9 years of experience working mostly on B2B products.
 
-[Class](https://kseniailinyh.github.io/portfolio/class.html)
+[About me](https://kseniailinyh.github.io/portfolio/about.html)
 
-[Help Center](https://kseniailinyh.github.io/portfolio/help-center.html)
+## Portfolio
+- [Class](https://kseniailinyh.github.io/portfolio/class.html)
+- [Help Center](https://kseniailinyh.github.io/portfolio/help-center.html)
 
-[Pet Projects](https://kseniailinyh.github.io/portfolio/pet-projects.html)
-
-[Mischief](https://kseniailinyh.github.io/portfolio/mischief.html)
+## Pet projects 
+- [Mindful Month](https://kseniailinyh.github.io/mindfulmonth/)
+- [Meeting's Etiquette](https://kseniailinyh-github-io.translate.goog/meetings/?_x_tr_sl=ru&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp)

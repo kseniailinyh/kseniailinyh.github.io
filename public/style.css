@@ -39,6 +39,10 @@ a:hover {
   max-width: 64vw;
 }
 
+.title {
+  text-align: center;
+}
+
 .cards-list {
   width: 100%;
   display: flex;

@@ -71,8 +71,9 @@ a:hover {
     height: auto;
 }
 
-.big-block:hover {
-    transform: scale(0.95, 0.95);
+.big-block img:hover {
+    -webkit-filter: brightness(90%);
+    -webkit-transition: all 1s ease;
 }
 
 .big-block p {

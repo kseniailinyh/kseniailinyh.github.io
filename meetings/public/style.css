@@ -3,8 +3,8 @@ body {
 	color: #151515;
 	font-family: 'Cormorant', serif;
 	font-weight: 500;
-	font-size: 16pt;
-	line-height: 1.5em;
+	font-size: 24pt;
+	line-height: 1.4em;
 	margin: 3em auto 3em;
 	max-width: 900px;
 	padding: 0;
@@ -14,7 +14,7 @@ h1 {
 	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	font-weight: 700;
-	font-size: 2.5em;
+	font-size: 2.0em;
 	line-height: 1.25em;
 	margin-bottom: 0.25em;
 	text-align: center;
@@ -30,10 +30,10 @@ h2 {
 	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	font-weight: 700;
-	font-size: 1.6em;
+	font-size: 1.4em;
 	line-height: 1.5em;
-	margin-bottom: -0.25em;
-	margin-top: 1.5em;
+	margin-top: 2em;
+	text-align: center;
 }
 
 a {
@@ -70,13 +70,9 @@ a:hover {
 	margin: 2em auto;
 }
 
-.grayscale {
-	filter: grayscale(100%);
-}
-
 .avatar {
 	border-radius: 50%;
-	width: 100px;
+	width: 80px;
 }
 
 .cover {
@@ -95,11 +91,6 @@ ul.menu li {
 }
 
 img {
-	width: 80%;
-}
-
-.likely {
-	text-align: center;
 	width: 100%;
 }
 

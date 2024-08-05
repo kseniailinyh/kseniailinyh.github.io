@@ -1,20 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
 
+* {
+  margin: 0 0;
+}
+
 body {
   font-family: 'Space Grotesk', sans-serif;
   font-size: 1.5vw;
   line-height: 1.4;
   text-align: left;
-  background-color: #fff;
+  background-color: #FAF9F6;
+  color: #0e0e0e;
   word-wrap: break-word;
   overflow-wrap: break-word;
-  color: #0e0e0e;
 }
 
 .home-link {
   position: fixed;
-  top: 2vw;
-  left: 2vw;
+  top: 1vw;
+  left: 1vw;
 }
 
 .content {
@@ -25,13 +29,15 @@ body {
 
 .content p, ul, h1, h2, h3 {
   max-width: 48vw;
-  margin: 2vw auto;
+  margin: 1em auto;
 }
 
 h1, h2, h3 {
   font-size: 1.5vw;
   line-height: 1.4;
   font-weight: 600;
+  margin-top: 2vw;
+  margin-bottom: -0.5em;
 }
 
 a {
@@ -71,12 +77,17 @@ img {
   }
 
   .content {
+    max-width: 90vw;
+    padding: 5vw 8vw; 
+    margin-top: 8vw;
+  }
+
+  .content p, ul, h1, h2, h3 {
     max-width: none;
-    padding: 16vw 5vw;
   }
 
   .home-link {
-    top: 2vw;
-    left: 5vw;
+    top: 3vw;
+    left: 8vw;
   }
 }

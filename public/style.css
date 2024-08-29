@@ -7,11 +7,11 @@ body, h1, p, ul {
 }
 
 body {
-  background-color: #FAF9F6;
-  color: #0e0e0e;
-  font-family: 'Space Grotesk', sans-serif;
-  font-size: 1.5vw;
-  line-height: 1.4;
+    background-color: #FAF9F6;
+    color: #0e0e0e;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.5vw;
+    line-height: 1.4;
 }
 
 header {
@@ -25,11 +25,11 @@ header {
 }
 
 a {
-  color: #0e0e0e;
+    color: #0e0e0e;
 }
 
 a:hover {
-  font-style: italic;
+    font-style: italic;
 }
 
 .cover {

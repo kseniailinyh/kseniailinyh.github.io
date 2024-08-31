@@ -27,7 +27,7 @@ body {
   margin: 0 auto;
 }
 
-.content p, ul, h1, h2, h3 {
+.content p, ul, ol, h1, h2, h3 {
   max-width: 48vw;
   margin: 1em auto;
 }

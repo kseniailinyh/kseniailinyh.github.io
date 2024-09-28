@@ -4,7 +4,7 @@ title: "Brush your teeth consciously"
 date: 2024-08-03
 ---
 
-![Alt text](/assets/images/03.jpg)
+![Alt text]({{ '/assets/images/03.jpg' | relative_url }})
 
 ## Brush your teeth consciously
 

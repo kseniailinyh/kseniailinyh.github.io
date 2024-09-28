@@ -4,7 +4,8 @@ title: "Consciously eat lunch"
 date: 2024-08-04
 ---
 
-![Alt text](/assets/images/04.jpg)
+![Alt text]({{ '/assets/images/04.jpg' | relative_url }})
+
 
 ## Consciously eat lunch
 

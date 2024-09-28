@@ -4,7 +4,7 @@ title: "Spend the day offline"
 date: 2024-08-14
 ---
 
-![Alt text](/assets/images/14.jpg)
+![Alt text]({{ '/assets/images/14.jpg' | relative_url }})
 
 ## Spend the day offline
 

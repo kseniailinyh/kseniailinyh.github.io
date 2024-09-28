@@ -4,7 +4,7 @@ title: "Don't read or watch the news"
 date: 2024-08-12
 ---
 
-![Alt text](/assets/images/12.jpg)
+![Alt text]({{ '/assets/images/12.jpg' | relative_url }})
 
 ## Don't read or watch the news
 

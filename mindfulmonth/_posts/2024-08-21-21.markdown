@@ -4,7 +4,7 @@ title: "Take a walk"
 date: 2024-08-21
 ---
 
-![Alt text](/assets/images/21.jpg)
+![Alt text]({{ '/assets/images/21.jpg' | relative_url }})
 
 ## Take a walk
 

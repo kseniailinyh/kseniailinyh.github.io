@@ -4,7 +4,7 @@ title: "Unsubscribe from newsletters"
 date: 2024-08-16
 ---
 
-![Alt text](/assets/images/16.jpg)
+![Alt text]({{ '/assets/images/16.jpg' | relative_url }})
 
 ## Unsubscribe from newsletters
 

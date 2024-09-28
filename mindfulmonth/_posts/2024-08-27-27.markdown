@@ -4,7 +4,7 @@ title: "Write down activities that bring joy and don't"
 date: 2024-08-27
 ---
 
-![Alt text](/assets/images/27.jpg)
+![Alt text]({{ '/assets/images/27.jpg' | relative_url }})
 
 ## Write down activities that bring joy and don't
 

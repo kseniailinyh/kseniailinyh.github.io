@@ -22,7 +22,7 @@ Originally, this was distributed as a newsletter, but the platform I used suspen
 <ol>
   {% for post in site.posts reversed %}
   <li>
-    <a href="{{ post.url }}">{{ post.title }}</a>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
   </li>
   {% endfor %}
 </ol>

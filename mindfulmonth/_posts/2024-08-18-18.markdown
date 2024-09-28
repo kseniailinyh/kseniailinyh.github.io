@@ -4,7 +4,7 @@ title: "Write down obligations to yourself and to others"
 date: 2024-08-18
 ---
 
-![Alt text](/assets/images/18.jpg)
+![Alt text]({{ '/assets/images/18.jpg' | relative_url }})
 
 ## Write down obligations to yourself and to others
 

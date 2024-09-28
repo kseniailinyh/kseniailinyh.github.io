@@ -21,23 +21,23 @@
 
         {{ content }}
 
-        <nav class="post-navigation">
+         <nav class="post-navigation">
           <div class="prev-link-container">
             {% if page.previous %}
               {% assign prev_day_number = day_number | minus: 1 %}
-              <a href="{{ page.previous.url }}" class="prev-link">← Day {{ prev_day_number }}</a>
+              <a href="{{ page.previous.url | relative_url }}" class="prev-link">← Day {{ prev_day_number }}</a>
             {% endif %}
           </div>
 
           <div class="next-link-container">
             {% if page.next %}
               {% assign next_day_number = day_number | plus: 1 %}
-              <a href="{{ page.next.url }}" class="next-link">Day {{ next_day_number }} →</a>
+              <a href="{{ page.next.url | relative_url }}" class="next-link">Day {{ next_day_number }} →</a>
             {% endif %}
           </div>
         </nav>
 
-      </article>
+     </article>
     </main>
   </body>
 </html>

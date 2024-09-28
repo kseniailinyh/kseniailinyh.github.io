@@ -4,7 +4,7 @@ title: "Write down the three most important things for today"
 date: 2024-08-19
 ---
 
-![Alt text](/assets/images/19.jpg)
+![Alt text]({{ '/assets/images/19.jpg' | relative_url }})
 
 ## Write down the three most important things for today
 

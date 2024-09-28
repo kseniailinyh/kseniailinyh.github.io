@@ -4,7 +4,7 @@ title: "Clean up the workplace"
 date: 2024-08-17
 ---
 
-![Alt text](/assets/images/17.jpg)
+![Alt text]({{ '/assets/images/17.jpg' | relative_url }})
 
 ## Clean up the workplace
 

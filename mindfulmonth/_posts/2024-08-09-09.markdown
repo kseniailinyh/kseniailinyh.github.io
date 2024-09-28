@@ -4,7 +4,7 @@ title: "Leave your phone at home"
 date: 2024-08-09
 ---
 
-![Alt text](/assets/images/09.jpg)
+![Alt text]({{ '/assets/images/09.jpg' | relative_url }})
 
 ## Leave your phone at home
 

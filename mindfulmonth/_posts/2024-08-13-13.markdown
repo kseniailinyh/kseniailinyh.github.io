@@ -4,7 +4,7 @@ title: "Turn off notifications"
 date: 2024-08-13
 ---
 
-![Alt text](/assets/images/13.jpg)
+![Alt text]({{ '/assets/images/13.jpg' | relative_url }})
 
 ## Turn off notifications
 

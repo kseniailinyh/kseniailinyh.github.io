@@ -4,7 +4,7 @@ title: "Call a friend or relative you haven't talked to for a long time"
 date: 2024-08-24
 ---
 
-![Alt text](/assets/images/24.jpg)
+![Alt text]({{ '/assets/images/24.jpg' | relative_url }})
 
 ## Call a friend or relative you haven't talked to for a long time
 

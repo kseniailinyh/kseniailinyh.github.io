@@ -4,7 +4,7 @@ title: "Leave your phone, computer, and tablet outside the bedroom"
 date: 2024-08-23
 ---
 
-![Alt text](/assets/images/23.jpg)
+![Alt text]({{ '/assets/images/23.jpg' | relative_url }})
 
 ## Leave your phone, computer, and tablet outside the bedroom
 

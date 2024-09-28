@@ -4,7 +4,7 @@ title: "Be with yourself for half an hour"
 date: 2024-08-06
 ---
 
-![Alt text](/assets/images/06.jpg)
+![Alt text]({{ '/assets/images/06.jpg' | relative_url }})
 
 ## Be with yourself for half an hour
 

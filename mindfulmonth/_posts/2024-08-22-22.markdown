@@ -4,7 +4,7 @@ title: "Go to bed an hour earlier"
 date: 2024-08-22
 ---
 
-![Alt text](/assets/images/22.jpg)
+![Alt text]({{ '/assets/images/22.jpg' | relative_url }})
 
 ## Go to bed an hour earlier
 

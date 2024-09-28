@@ -4,7 +4,7 @@ title: "Delete social media apps"
 date: 2024-08-15
 ---
 
-![Alt text](/assets/images/15.jpg)
+![Alt text]({{ '/assets/images/15.jpg' | relative_url }})
 
 ## Delete social media apps
 

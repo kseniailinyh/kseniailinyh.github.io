@@ -4,7 +4,7 @@ title: "Remember to whom and for what you are grateful"
 date: 2024-08-26
 ---
 
-![Alt text](/assets/images/26.jpg)
+![Alt text]({{ '/assets/images/26.jpg' | relative_url }})
 
 ## Remember to whom and for what you are grateful
 

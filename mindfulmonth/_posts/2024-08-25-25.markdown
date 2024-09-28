@@ -4,7 +4,7 @@ title: "Talk to your loved one"
 date: 2024-08-25
 ---
 
-![Alt text](/assets/images/25.jpg)
+![Alt text]({{ '/assets/images/25.jpg' | relative_url }})
 
 ## Talk to your loved one
 

@@ -4,7 +4,7 @@ title: "Get some rest"
 date: 2024-08-01
 ---
 
-![Cover image]({{ site.baseurl }}/assets/images/01.jpg)
+![Cover image]({{ '/assets/images/01.jpg' | relative_url }})
 
 ## Get some rest
 

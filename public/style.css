@@ -71,8 +71,31 @@ a:hover {
     height: auto;
 }
 
-.big-block img:hover {
+/* Ensure videos with the .case-preview class scale and behave like images inside .big-block */
+.big-block .case-preview,
+.big-block video.case-preview {
+    width: 100%;
+    height: auto;
+    display: block; /* removes inline spacing */
+    max-width: 100%;
+    border: 2px solid #0e0e0e;
+    border-radius: 16px;
+    box-sizing: border-box;
+}
+
+/* Match hover visual treatment with images */
+.big-block .case-preview:hover,
+.big-block video.case-preview:hover {
+    filter: brightness(90%);
     -webkit-filter: brightness(90%);
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+}
+
+.big-block img:hover {
+    filter: brightness(90%);
+    -webkit-filter: brightness(90%);
+    transition: all 1s ease;
     -webkit-transition: all 1s ease;
 }
 

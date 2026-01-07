@@ -1,0 +1,13 @@
+<header class="site-header">
+  <nav class="site-nav" aria-label="Primary">
+    <ul class="nav-list">
+      {% for item in site.data.nav %}
+      <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
+  <div class="nav-actions">
+    <a href="https://www.linkedin.com/in/kseniailinykh/" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="{{ "/public/Resume-Ksenia-Ilinykh.pdf" | relative_url }}" target="_blank" rel="noopener">Download CV</a>
+  </div>
+</header>

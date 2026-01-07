@@ -1,237 +1,169 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="public/style.css">
-  <link rel='shortcut icon' href='public/favicon.ico'>
+---
+layout: base
+title: "Ksenia"
+body_class: home
+---
+<section class="cover">
+  <img src="{{ "/public/cover.png" | relative_url }}" alt="Cover Picture">
+</section>
 
-  <!-- Primary Meta Tags -->
-  <title>Ksenia</title>
-  <meta name="title" content="Ksenia">
-  <meta name="description" content="Product Designer">
+<section class="content" id="about">
+  <p>
+    Hey, I’m Ksenia, a&nbsp;product designer.
+    I’ve been designing things for B2B companies and having fun for over 10&nbsp;years.
+    A&nbsp;colleague once said what describes me very&nbsp;well:
+  </p>
 
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://kseniailinyh.github.io/">
-  <meta property="og:title" content="Ksenia">
-  <meta property="og:description" content="Product Designer">
+  <p class="quote">
+    “Ksenia has a positive and easygoing attitude, so&nbsp;it's always a&nbsp;pleasure to&nbsp;have a&nbsp;meeting with her. Her deeply analytical mindset also doesn't hurt.”
+  </p>
 
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://kseniailinyh.github.io/">
-  <meta property="twitter:title" content="Ksenia">
-  <meta property="twitter:description" content="Product Designer">
+  <div id="case-studies"></div>
 
-  <!-- Yandex.Metrika counter -->
-  <script type="text/javascript" >
-     (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-     m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-     (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+  <p>Let's start with a standard part of my portfolio:</p>
 
-     ym(53872675, "init", {
-          clickmap:true,
-          trackLinks:true,
-          accurateTrackBounce:true,
-          webvisor:true
-     });
-  </script>
-  <noscript><div><img src="https://mc.yandex.ru/watch/53872675" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-  <!-- /Yandex.Metrika counter -->
+  <div class="big-block">
+    <a href="{{ "/case-studies/image-resize/" | relative_url }}">
+      <video
+        autoplay
+        muted
+        loop
+        playsinline
+        preload="auto"
+        class="case-preview"
+      >
+        <source
+          src="{{ "/case-studies/image-resize/image-resize-cover.mp4" | relative_url }}"
+          type="video/mp4"
+        >
+      </video>
+    </a>
+    <p>
+      How I turned a repetitive task into a smart internal tool using AI.
+      <a href="{{ "/case-studies/image-resize/" | relative_url }}">Read&nbsp;more&nbsp;→</a>
+    </p>
+  </div>
 
-</head>
+  <div class="big-block">
+    <a href="{{ "/case-studies/login-form/" | relative_url }}">
+      <img src="{{ "/case-studies/login-form/login-form-cover.png" | relative_url }}" alt="Cover for case study about login form improvements">
+    </a>
+    <p>
+      I&nbsp;initiated small but impactful design changes for the login form to&nbsp;reduce support cases due to&nbsp;locked accounts.
+      <a href="{{ "/case-studies/login-form/" | relative_url }}">Read&nbsp;more&nbsp;→</a>
+    </p>
+  </div>
 
-<body>
-    <header>
-        <a href="https://www.linkedin.com/in/kseniailinykh/" target="_blank">LinkedIn</a>
-        <a href="public/Resume-Ksenia-Ilinykh.pdf" target="_blank">Download CV</a>
-    </header>
-    
-    <section class="cover">
-        <img src="public/cover.png" alt="Cover Picture">
-    </section>
-    
-    <section class="content">
-        <p>
-            Hey, I’m Ksenia, a&nbsp;product designer. 
-            I’ve been designing things for B2B companies and having fun for over 10&nbsp;years.
-            A&nbsp;colleague once said what describes me very&nbsp;well:
-        </p>
+  <div class="big-block">
+    <a href="{{ "/case-studies/bureau/" | relative_url }}">
+      <img src="{{ "/case-studies/bureau/bureau-cover.png" | relative_url }}" alt="">
+    </a>
+    <p>
+      I&nbsp;created a&nbsp;new design team in&nbsp;the company, raised it&nbsp;to&nbsp;5&nbsp;designers, and built all the processes. In&nbsp;2021, 5&nbsp;designers in&nbsp;my&nbsp;team provided end-to-end design for 30&nbsp;products.
+      <a href="{{ "/case-studies/bureau/" | relative_url }}">Read&nbsp;more&nbsp;→</a>
+    </p>
+  </div>
 
-        <p class="quote">
-            “Ksenia has a positive and easygoing attitude, so&nbsp;it's always a&nbsp;pleasure to&nbsp;have a&nbsp;meeting with her. Her deeply analytical mindset also doesn't hurt.”
-        </p>
-        
-        <!-- Case studies -->
+  <div class="big-block">
+    <a href="{{ "/case-studies/class/" | relative_url }}">
+      <img src="{{ "/case-studies/class/class-cover.png" | relative_url }}" alt="Cover for case study about UI for teachers and students">
+    </a>
+    <p>
+      Mobile and desktop&nbsp;UI for the web app where students can share their homework with a&nbsp;teacher. I&nbsp;reconsidered the initial concept, convinced the team, and validated it&nbsp;through user testing.
+      <a href="{{ "/case-studies/class/" | relative_url }}">Read&nbsp;more&nbsp;→</a>
+    </p>
+  </div>
 
-        <p>Let's start with a standard part of my portfolio:</p>
+  <div class="big-block">
+    <a href="{{ "/case-studies/help-center/" | relative_url }}">
+      <img src="{{ "/case-studies/help-center/help-center-cover.png" | relative_url }}" alt="Cover for case study about help center redesign">
+    </a>
+    <p>
+      I&nbsp;led the redesign of&nbsp;the Help Center as&nbsp;the art director to&nbsp;enhance the user experience by&nbsp;improving navigation and accessibility.
+      <a href="{{ "/case-studies/help-center/" | relative_url }}">Read&nbsp;more&nbsp;→</a>
+    </p>
+  </div>
 
-        <div class="big-block">
-            <a href="case-studies/image-resize.html">
-                <video
-                autoplay
-                muted
-                loop
-                playsinline
-                preload="auto"
-                class="case-preview"
-                >
-                <source
-                    src="case-studies/image-resize/image-resize-cover.mp4"
-                    type="video/mp4"
-                >
-                </video>          
-            </a>
-            <p>
-                How I turned a repetitive task into a smart internal tool using AI.
-                <a href="case-studies/image-resize.html">Read&nbsp;more&nbsp;→</a>
-            </p>
-        </div>
+  <p>
+    And here are some details to help you understand me better as&nbsp;a&nbsp;designer:
+  </p>
 
-        <div class="big-block">
-            <a href="case-studies/login-form.html">
-                <img src="case-studies/login-form/login-form-cover.png" alt="Cover for case study about login form improvements">
-            </a>
-            <p>
-                I&nbsp;initiated small but impactful design changes for the login form to&nbsp;reduce support cases due to&nbsp;locked accounts.
-                <a href="case-studies/login-form.html">Read&nbsp;more&nbsp;→</a>
-            </p>
-        </div>
+  <div class="small-block">
+    <img src="{{ "/public/figma.png" | relative_url }}" alt="Components and layers in Figma">
+    <p>
+      I&nbsp;lead the design system team and contribute myself.
+      I&nbsp;love digging into components, properties, and details, and I’m a Figma nerd naming all the layers (but I&nbsp;don’t expect others to do the same).
+    </p>
+  </div>
 
-        <div class="big-block">
-            <a href="case-studies/bureau.html">
-                <img src="case-studies/bureau/bureau-cover.png" alt="">
-            </a>
-            <p>
-                I&nbsp;created a&nbsp;new design team in&nbsp;the company, raised it&nbsp;to&nbsp;5&nbsp;designers, and built all the processes. In&nbsp;2021, 5&nbsp;designers in&nbsp;my&nbsp;team provided end-to-end design for 30&nbsp;products.
-                <a href="case-studies/bureau.html">Read&nbsp;more&nbsp;→</a>
-            </p>
-        </div>
+  <div class="small-block">
+    <img src="{{ "/public/feedback.png" | relative_url }}" alt="Slide from presentation with photo of God Father and quote that you criticize my design but do it without respect ">
+    <p>
+      I like to share my knowledge and experience, often giving talks to&nbsp;colleagues. One of my favorite speeches is about feedback - on how to give and receive feedback if you're a designer. <br>
+      <a href="https://youtu.be/eHFsnUXkSSk" target="_blank" rel="noopener">Watch&nbsp;the&nbsp;speech&nbsp;→</a>
+    </p>
+  </div>
 
-        <div class="big-block">
-            <a href="case-studies/class.html">
-                <img src="case-studies/class/class-cover.png" alt="Cover for case study about UI for teachers and students">
-            </a>
-            <p>
-                Mobile and desktop&nbsp;UI for the web app where students can share their homework with a&nbsp;teacher. I&nbsp;reconsidered the initial concept, convinced the team, and validated it&nbsp;through user testing.
-                <a href="case-studies/class.html">Read&nbsp;more&nbsp;→</a>
-            </p>
-        </div>
+  <div class="small-block">
+    <img src="{{ "/public/mockup.png" | relative_url }}" alt="Screenshot from Figma stats">
+    <p>
+      I enjoy making useful tools. When I&nbsp;couldn't find a good browser mockup for my portfolio, I made one and shared it with the community. It has received 20,000 views and 10,000 downloads. <br>
+      <a href="https://www.figma.com/community/file/1143157600608136851" target="_blank" rel="noopener">Check&nbsp;it&nbsp;out&nbsp;→</a>
+    </p>
+  </div>
 
-        <div class="big-block">
-            <a href="case-studies/help-center.html">
-                <img src="case-studies/help-center/help-center-cover.png" alt="Cover for case study about help center redesign">
-            </a>
-            <p>
-                I&nbsp;led the redesign of&nbsp;the Help Center as&nbsp;the art director to&nbsp;enhance the user experience by&nbsp;improving navigation and accessibility.
-                <a href="case-studies/help-center.html">Read&nbsp;more&nbsp;→</a>
-            </p>
-        </div>
+  <p>I&nbsp;love adding a&nbsp;touch of&nbsp;playfulness to&nbsp;every project:</p>
 
-        <!-- Details -->
+  <div class="small-block">
+    <div class="video-container">
+      <iframe src="https://www.youtube.com/embed/e3u6S5-q0Sw?si=IPAHBzZJJKFrJsJG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <p>
+      I&nbsp;made a&nbsp;Star Wars-themed video to&nbsp;motivate front-end engineers to&nbsp;develop our design system. They chose the light side of&nbsp;the Force.
+    </p>
+  </div>
 
-        <p>
-            And here are some details to help you understand me better as&nbsp;a&nbsp;designer:
-        </p>
-        
-        <div class="small-block">
-            <img src="public/figma.png" alt="Components and layers in Figma">
-            <p>
-                I&nbsp;lead the design system team and contribute myself. 
-                I&nbsp;love digging into components, properties, and details, and I’m a Figma nerd naming all the layers (but I&nbsp;don’t expect others to do the same).
-            </p>
-        </div>
+  <div class="small-block">
+    <img src="{{ "/public/lumpy-space-princess.png" | relative_url }}" alt="Screenshots of UI with Lumpy Space Princess">
+    <p>
+      To&nbsp;make a&nbsp;boring project more enjoyable, I&nbsp;added the Lumpy Space Princess from Adventure Time to&nbsp;my&nbsp;prototypes. This also got the developers engaged in&nbsp;the project.
+    </p>
+  </div>
 
-        <div class="small-block">
-            <img src="public/feedback.png" alt="Slide from presentation with photo of God Father and quote that you criticize my design but do it without respect ">  
-            <p>
-                I like to share my knowledge and experience, often giving talks to&nbsp;colleagues. One of my favorite speeches is about feedback - on how to give and receive feedback if you're a designer. <br>
-                <a href="https://youtu.be/eHFsnUXkSSk" target="_blank">Watch&nbsp;the&nbsp;speech&nbsp;→</a>
-            </p>
-        </div>
+  <div class="small-block">
+    <img src="{{ "/public/comic.png" | relative_url }}" alt="Comic with design doc">
+    <p>
+      I&nbsp;created a&nbsp;comic with design specs for a&nbsp;developer who didn&rsquo;t like reading design documents. He&nbsp;felt touched and developed everything just right.<br>
+      <a href="https://medium.com/@ksenia_ilinyh/describing-task-as-story-19c9ea5be063" target="_blank" rel="noopener">Read&nbsp;the&nbsp;post&nbsp;→</a>
+    </p>
+  </div>
 
-        <div class="small-block">
-            <img src="public/mockup.png" alt="Screenshot from Figma stats">
-            <p>
-                I enjoy making useful tools. When I&nbsp;couldn't find a good browser mockup for my portfolio, I made one and shared it with the community. It has received 20,000 views and 10,000 downloads. <br>
-                <a href="https://www.figma.com/community/file/1143157600608136851" target="_blank">Check&nbsp;it&nbsp;out&nbsp;→</a>
-            </p>
-        </div>
+  <div id="projects"></div>
 
-        <!-- Playfulness -->
+  <p>I’m not only my work, I&nbsp;love doing side projects:</p>
 
-        <p>I&nbsp;love adding a&nbsp;touch of&nbsp;playfulness to&nbsp;every project:</p>
+  <div class="small-block">
+    <img src="{{ "/public/digital-hygiene.png" | relative_url }}" alt="Pages of digital hygiene guide">
+    <p>
+      A&nbsp;project offering tips to&nbsp;turn your phone from a&nbsp;distraction into a&nbsp;useful tool, with illustrations created using Midjourney. <br>
+      <a href="https://kseniailinyh.github.io/digital-hygiene/" target="_blank" rel="noopener">Digital&nbsp;Hygiene&nbsp;→</a>
+    </p>
+  </div>
 
-        <div class="small-block">
-            <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/e3u6S5-q0Sw?si=IPAHBzZJJKFrJsJG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-            <p>
-                I&nbsp;made a&nbsp;Star Wars-themed video to&nbsp;motivate front-end engineers to&nbsp;develop our design system. They chose the light side of&nbsp;the Force.
-            </p>
-        </div>
+  <div class="small-block">
+    <img src="{{ "/public/meeting-etiquette.png" | relative_url }}" alt="Screenshots of UI with Lumpy Space Princess">
+    <p>
+      Guidelines for making large company meetings less painful and more productive, with illustrations by&nbsp;my&nbsp;friend.
+      <br>
+      <a href="https://kseniailinyh.github.io/meetings/en" target="_blank" rel="noopener">Meeting&nbsp;Etiquette&nbsp;→</a>
+    </p>
+  </div>
 
-        <div class="small-block">
-            <img src="public/lumpy-space-princess.png" alt="Screenshots of UI with Lumpy Space Princess">  
-            <p>
-                To&nbsp;make a&nbsp;boring project more enjoyable, I&nbsp;added the Lumpy Space Princess from Adventure Time to&nbsp;my&nbsp;prototypes. This also got the developers engaged in&nbsp;the project.
-            </p>
-        </div>
-
-        <div class="small-block">
-            <img src="public/comic.png" alt="Comic with design doc">
-            <p>
-                I&nbsp;created a&nbsp;comic with design specs for a&nbsp;developer who didn&rsquo;t like reading design documents. He&nbsp;felt touched and developed everything just right.<br>
-                <a href="https://medium.com/@ksenia_ilinyh/describing-task-as-story-19c9ea5be063" target="_blank">Read&nbsp;the&nbsp;post&nbsp;→</a>
-            </p>
-        </div>
-
-        <!-- Side projects -->
-
-
-        <p>I’m not only my work, I&nbsp;love doing side projects:</p>
-
-        <div class="small-block">
-            <img src="public/digital-hygiene.png" alt="Pages of digital hygiene guide">
-            <p>
-                A&nbsp;project offering tips to&nbsp;turn your phone from a&nbsp;distraction into a&nbsp;useful tool, with illustrations created using Midjourney. <br>
-                <a href="https://kseniailinyh.github.io/digital-hygiene/" target="_blank">Digital&nbsp;Hygiene&nbsp;→</a>
-            </p>
-        </div>
-
-        <div class="small-block">
-            <img src="public/meeting-etiquette.png" alt="Screenshots of UI with Lumpy Space Princess">  
-            <p>
-                Guidelines for making large company meetings less painful and more productive, with illustrations by&nbsp;my&nbsp;friend.
-                <br>
-                <a href="https://kseniailinyh.github.io/meetings/en" target="_blank">Meeting&nbsp;Etiquette&nbsp;→</a>
-            </p>
-        </div>
-
-        <div class="small-block">
-            <img src="public/mindful-month.png" alt="Comic with design doc">
-            <p>
-                A&nbsp;newsletter that teaches how to&nbsp;live a&nbsp;calm and happy life, like an&nbsp;advent calendar with daily easy tasks instead of&nbsp;sweets.<br>
-                <a href="https://kseniailinyh.github.io/mindfulmonth/" target="_blank">Mindful&nbsp;Month&nbsp;→</a>
-            </p>
-        </div>
-        
-        <!-- The end -->
-
-        <p>
-            Wow, you’ve reached the end! <br>
-            Maybe you even read something, <br>
-            or at least looked at the pictures. <br> 
-            Thanks, love you! <br>
-            <br>
-            ✦ <br>
-            <br>
-            If you have something interesting in&nbsp;mind, 
-            feel free to reach&nbsp;out: <br>
-            <a href="mailto:ksenia.ilinyh@gmail.com">Email me</a> | <a href="https://www.linkedin.com/in/kseniailinykh/" target="_blank">LinkedIn</a>
-        </p>
-
-    </section>
-</body>
-</html>
+  <div class="small-block">
+    <img src="{{ "/public/mindful-month.png" | relative_url }}" alt="Comic with design doc">
+    <p>
+      A&nbsp;newsletter that teaches how to&nbsp;live a&nbsp;calm and happy life, like an&nbsp;advent calendar with daily easy tasks instead of&nbsp;sweets.<br>
+      <a href="https://kseniailinyh.github.io/mindfulmonth/" target="_blank" rel="noopener">Mindful&nbsp;Month&nbsp;→</a>
+    </p>
+  </div>
+</section>

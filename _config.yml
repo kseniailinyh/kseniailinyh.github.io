@@ -1,0 +1,6 @@
+title: "Ksenia Ilinykh — Product Designer"
+theme: minima
+collections:
+  case-studies:
+    output: true
+    permalink: /case-studies/:slug/

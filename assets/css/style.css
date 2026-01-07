@@ -274,16 +274,22 @@ a:hover {
     }
 
     .site-header {
-        margin: 0 8vw;
-        top: 3vw;
+        margin: 0;
+        top: 0;
         flex-direction: row;
         align-items: center;
+        background-color: #FAF9F6;
+        padding: 3vw 8vw;
+        z-index: 10;
     }
 
     .case-nav {
-        bottom: 3vw;
-        left: 8vw;
-        right: 8vw;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #FAF9F6;
+        padding: 3vw 8vw;
+        z-index: 10;
     }
 
     .site-footer {
@@ -340,7 +346,7 @@ a:hover {
     .case-study .content {
         --case-pad-x: 8vw;
         max-width: 90vw;
-        padding: 2.5vw var(--case-pad-x);
+        padding: 2.5vw var(--case-pad-x) 14vw;
         margin-top: 8vw;
     }
 
@@ -350,5 +356,11 @@ a:hover {
     .case-study .content h2,
     .case-study .content h3 {
         max-width: none;
+    }
+
+    .case-study h1,
+    .case-study h2,
+    .case-study h3 {
+        font-size: inherit;
     }
 }

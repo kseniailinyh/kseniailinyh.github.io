@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FAF9F6;
+    color: #0e0e0e;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.5vw;
+    line-height: 1.4;
+}
+
+a {
+    color: #0e0e0e;
+}
+
+a:hover {
+    font-style: italic;
+}
+
+.site-header {
+    position: sticky;
+    top: 1vw;
+    margin: 0 1vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-content {
+    min-height: 60vh;
+}
+
+.site-footer {
+    max-width: 48vw;
+    margin: 0 auto;
+    padding: 0 1.2vw 6vw;
+    text-align: center;
+}
+
+.home .cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vw;
+}
+
+.home .cover img {
+    width: 70vw;
+    height: auto;
+    object-fit: cover;
+}
+
+.home .content {
+    max-width: 50vw;
+    margin: 0 auto;
+    padding: 1.2vw;
+    margin-top: -4vw;
+}
+
+.home .content > * {
+    margin-bottom: 4vw;
+}
+
+.home .content p {
+    text-align: center;
+}
+
+.home .quote {
+    border: 2px solid #0e0e0e;
+    padding: 16px;
+    border-radius: 16px;
+}
+
+.home .big-block img {
+    width: 100%;
+    height: auto;
+}
+
+.home .big-block .case-preview,
+.home .big-block video.case-preview {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 100%;
+    border: 2px solid #0e0e0e;
+    border-radius: 16px;
+    box-sizing: border-box;
+}
+
+.home .big-block .case-preview:hover,
+.home .big-block video.case-preview:hover {
+    filter: brightness(90%);
+    -webkit-filter: brightness(90%);
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+}
+
+.home .big-block img:hover {
+    filter: brightness(90%);
+    -webkit-filter: brightness(90%);
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+}
+
+.home .big-block p {
+    margin-top: 0.6vw;
+    text-align: left;
+}
+
+.home .small-block {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 4vw;
+    gap: 1.2vw;
+}
+
+.home .small-block img,
+.home .small-block p {
+    width: calc(50% - 0.6vw);
+    height: auto;
+}
+
+.home .small-block p {
+    text-align: left;
+}
+
+.home .small-block:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.video-container {
+    width: calc(50% - 0.6vw);
+    padding-bottom: calc((50% - 0.6vw) * 0.5625);
+    position: relative;
+    height: 0;
+    border-radius: 16px;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+
+.case-study .content {
+    --case-pad-x: 5vw;
+    max-width: 64vw;
+    padding: 1vw var(--case-pad-x);
+    margin: 0 auto;
+}
+
+.case-study .content p,
+.case-study .content ul,
+.case-study .content ol,
+.case-study .content h1,
+.case-study .content h2,
+.case-study .content h3 {
+    max-width: 48vw;
+    margin: 1em auto;
+}
+
+.case-study .content > p:first-child {
+    margin-top: 0;
+}
+
+.case-study .content > img:first-child,
+.case-study .content > p:first-child > img {
+    margin-top: 0;
+}
+
+.case-study .content p:has(> img) {
+    max-width: none;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.case-study h1,
+.case-study h2,
+.case-study h3 {
+    font-size: 1.5vw;
+    line-height: 1.4;
+    font-weight: 600;
+    margin-top: 2vw;
+    margin-bottom: -0.5em;
+}
+
+.case-study ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.case-study ul li {
+    position: relative;
+    padding-left: 1.2em;
+}
+
+.case-study ul li::before {
+    content: "–";
+    position: absolute;
+    left: 0;
+}
+
+.case-study img {
+    max-width: 100%;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.case-study .content img {
+    width: calc(100% + (var(--case-pad-x) * 2));
+    height: auto;
+    display: block;
+    max-width: none;
+    margin-left: calc(var(--case-pad-x) * -1);
+    margin-right: calc(var(--case-pad-x) * -1);
+}
+
+.case-hero {
+    width: calc(100% + (var(--case-pad-x) * 2));
+    height: auto;
+    display: block;
+    max-width: none;
+    border: 2px solid #0e0e0e;
+    border-radius: 16px;
+    box-sizing: border-box;
+    margin-left: calc(var(--case-pad-x) * -1);
+    margin-right: calc(var(--case-pad-x) * -1);
+}
+
+.case-study .video-container {
+    width: calc(100% + (var(--case-pad-x) * 2));
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+    border-radius: 16px;
+    margin-left: calc(var(--case-pad-x) * -1);
+    margin-right: calc(var(--case-pad-x) * -1);
+}
+
+.case-study .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 5vw;
+    }
+
+    .site-header {
+        margin: 0 8vw;
+        top: 3vw;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .site-footer {
+        max-width: 90vw;
+        padding: 0 8vw 12vw;
+        text-align: left;
+    }
+
+    .home .cover img {
+        content: url('/public/cover-small.png');
+        width: 100%;
+        margin-top: 6vw;
+    }
+
+    .home .content {
+        max-width: 90vw;
+        padding: 5vw 8vw;
+        margin-top: -12vw;
+    }
+
+    .home .content p {
+        text-align: left;
+    }
+
+    .home .content > * {
+        margin-bottom: 12vw;
+    }
+
+    .home .big-block p,
+    .home .small-block p {
+        margin-top: 4vw;
+    }
+
+    .home .small-block {
+        display: block;
+    }
+
+    .home .small-block img,
+    .home .video-container {
+        width: 100%;
+        margin: 0 auto 2vw auto;
+    }
+
+    .home .video-container {
+        padding-bottom: 56.25%;
+    }
+
+    .home .small-block p {
+        width: 100%;
+        margin-right: 0;
+        margin-top: 2vw;
+    }
+
+    .case-study .content {
+        --case-pad-x: 8vw;
+        max-width: 90vw;
+        padding: 2.5vw var(--case-pad-x);
+        margin-top: 8vw;
+    }
+
+    .case-study .content p,
+    .case-study .content ul,
+    .case-study .content h1,
+    .case-study .content h2,
+    .case-study .content h3 {
+        max-width: none;
+    }
+}

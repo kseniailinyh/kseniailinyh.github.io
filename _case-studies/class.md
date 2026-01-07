@@ -2,6 +2,7 @@
 layout: base
 title: "Class"
 body_class: case-study
+next_url: "/case-studies/help-center/"
 ---
 <div class="content" markdown="1">
 
@@ -49,7 +50,5 @@ And gives marks:
 <video autoplay muted loop playsinline preload="auto" class="case-hero">
   <source src="class-09.mp4" type="video/mp4">
 </video>
-
-[Next project →]({{ "/case-studies/help-center/" | relative_url }})
 
 </div>

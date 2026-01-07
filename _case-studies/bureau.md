@@ -2,6 +2,7 @@
 layout: base
 title: "Bureau"
 body_class: case-study
+next_url: "/case-studies/class/"
 ---
 <div class="content" markdown="1">
 
@@ -15,7 +16,5 @@ At&nbsp;Kontur, a&nbsp;leading SaaS provider in&nbsp;Russia with over 70&nbsp;pr
 
 I&nbsp;developed a&nbsp;process for our team and explained how to&nbsp;collaborate with&nbsp;us. To&nbsp;do&nbsp;this, I&nbsp;wrote content, created designs using free illustrations by&nbsp;Icons8, and with the help of&nbsp;a&nbsp;front-end engineer, built the website.<br><br>
 [Check the guide](https://kseniailinyh.github.io/bureau){: target="_blank" rel="noopener" }
-
-[Next project →]({{ "/case-studies/class/" | relative_url }})
 
 </div>

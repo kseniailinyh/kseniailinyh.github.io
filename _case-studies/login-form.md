@@ -2,6 +2,7 @@
 layout: base
 title: "Improving the Login Page"
 body_class: case-study
+next_url: "/case-studies/bureau/"
 ---
 <div class="content" markdown="1">
 
@@ -41,7 +42,5 @@ I&nbsp;prioritized these changes based on&nbsp;their potential impact, drawing f
 The project was approved and is&nbsp;currently in&nbsp;development.
 
 Although I&nbsp;can&rsquo;t present metrics yet, I&nbsp;plan to&nbsp;use the support case numbers as&nbsp;a&nbsp;baseline post-release. My&nbsp;hypothesis is&nbsp;that these small changes will enhance user experience providing clarity and transparency and, as&nbsp;a&nbsp;result, reduce support requests.
-
-[Next project →]({{ "/case-studies/bureau/" | relative_url }})
 
 </div>

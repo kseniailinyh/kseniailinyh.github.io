@@ -31,6 +31,20 @@ a:hover {
     align-items: center;
 }
 
+.case-nav {
+    position: fixed;
+    bottom: 1vw;
+    left: 1vw;
+    right: 1vw;
+    display: flex;
+    justify-content: space-between;
+    pointer-events: none;
+}
+
+.case-nav a {
+    pointer-events: auto;
+}
+
 .page-content {
     min-height: 60vh;
 }
@@ -264,6 +278,12 @@ a:hover {
         top: 3vw;
         flex-direction: row;
         align-items: center;
+    }
+
+    .case-nav {
+        bottom: 3vw;
+        left: 8vw;
+        right: 8vw;
     }
 
     .site-footer {

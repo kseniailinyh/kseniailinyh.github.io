@@ -40,6 +40,14 @@
 
 <body class="{{ page.body_class }}">
   {% include nav.html %}
+  {% if page.body_class == "case-study" %}
+  <div class="case-nav">
+    <a class="case-nav-left" href="{{ "/" | relative_url }}">← To portfolio</a>
+    {% if page.next_url %}
+    <a class="case-nav-right" href="{{ page.next_url | relative_url }}">Next project →</a>
+    {% endif %}
+  </div>
+  {% endif %}
   <main class="page-content">
     {{ content }}
   </main>

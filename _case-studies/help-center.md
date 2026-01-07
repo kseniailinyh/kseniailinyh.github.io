@@ -2,6 +2,7 @@
 layout: base
 title: "Help Center"
 body_class: case-study
+next_url: "/case-studies/image-resize/"
 ---
 <div class="content" markdown="1">
 

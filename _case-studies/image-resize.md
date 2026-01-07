@@ -2,6 +2,7 @@
 layout: base
 title: "Vibecoding"
 body_class: case-study
+next_url: "/case-studies/login-form/"
 ---
 <div class="content" markdown="1">
 
@@ -85,7 +86,5 @@ The result is a lightweight self-serve tool that:
 - The process became faster, simpler, and more scalable.
 
 What used to be a manual, error-prone task is now a small self-service tool that just works.
-
-[Next project →]({{ "/case-studies/login-form/" | relative_url }})
 
 </div>

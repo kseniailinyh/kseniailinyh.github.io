@@ -1,2 +1,4 @@
 .idea/
 mindfulmonth/_site
+_site/
+.jekyll-cache/

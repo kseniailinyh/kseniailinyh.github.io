@@ -1,15 +1,18 @@
 # Ksenia, product designer
-Hi! I’m Ksenia, a mischievous product designer with 9 years of experience working mostly on B2B products.
+Hey, I’m Ksenia, a product designer. I’ve been designing things for B2B companies and having fun for over 10 years. 
 
-- [About me](https://kseniailinyh.github.io/portfolio/about.html)
-- [CV](https://kseniailinyh.github.io/portfolio/Resume-Ksenia-Ilinykh.pdf)
+- [CV](https://kseniailinyh.github.io/public/Resume-Ksenia-Ilinykh.pdf)
 - [LinkedIn](https://www.linkedin.com/in/kseniailinykh/) 
 - [Email](mailto:ksenia.ilinyh@gmail.com)
 
 ## Portfolio
-- [Class](https://kseniailinyh.github.io/portfolio/class.html)
-- [Help Center](https://kseniailinyh.github.io/portfolio/help-center.html)
+- [How I turned a repetitive task into a smart internal tool using AI](https://kseniailinyh.github.io/case-studies/image-resize.html)
+- [How I initiated small but impactful design changes for the login form to reduce support cases](https://kseniailinyh.github.io/case-studies/login-form.html)
+- [How I created a new design team in the company](https://kseniailinyh.github.io/case-studies/bureau.html)
+- [How I designe mobile and desktop web app for students and teachers](https://kseniailinyh.github.io/case-studies/class.html)
+- [How I led the redesign of Help Center as art director](https://kseniailinyh.github.io/case-studies/help-center.html)
 
 ## Pet projects 
+- [Digital Hygiene](https://kseniailinyh.github.io/digital-hygiene/)
 - [Mindful Month](https://kseniailinyh.github.io/mindfulmonth/)
-- [Meeting's Etiquette](https://kseniailinyh-github-io.translate.goog/meetings/?_x_tr_sl=ru&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp)
+- [Meeting's Etiquette](https://kseniailinyh.github.io/meetings/en)

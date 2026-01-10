@@ -3,11 +3,12 @@ layout: base
 title: "Vibecoding"
 body_class: case-study
 next_url: "/case-studies/login-form/"
+media_path: "/assets/media/image-resize"
 ---
 <div class="content" markdown="1">
 
 <video autoplay muted loop playsinline preload="auto" class="case-hero">
-  <source src="image-resize-cover.mp4" type="video/mp4">
+  <source src="{{ page.media_path }}/image-resize-cover.mp4" type="video/mp4">
 </video>
 
 ## Manual image preparation was slowing us down
@@ -17,7 +18,7 @@ In our system, we use device images in multiple places and in several predefined
 Every time a new device was added, the same image had to be manually prepared in many different resolutions and named according to strict conventions.
 
 <video autoplay muted loop playsinline preload="auto" class="case-hero">
-  <source src="image-resize-02.mp4" type="video/mp4">
+  <source src="{{ page.media_path }}/image-resize-02.mp4" type="video/mp4">
 </video>
 
 This process was:
@@ -42,7 +43,7 @@ When I tried to describe a “complete” interface right away, the result was o
 
 So I deliberately started with the simplest possible MVP – the minimum UI that could solve the core task.
 
-![The first version by Figma Make](image-resize-01.png)
+![The first version by Figma Make]({{ page.media_path }}/image-resize-01.png)
 
 From there, I:
 
@@ -59,7 +60,7 @@ The final step was visual polish.
 While Figma Make helped with structure and logic, refining the UI turned out to be much harder to describe in natural language. At some point, it was simply faster and clearer for me to open Figma and adjust the design manually.
 
 <video autoplay muted loop playsinline preload="auto" class="case-hero">
-  <source src="image-resize-03.mp4" type="video/mp4">
+  <source src="{{ page.media_path }}/image-resize-03.mp4" type="video/mp4">
 </video>
 
 Describing “good design” precisely enough for AI is still challenging – drawing it myself was quicker and more reliable.
@@ -74,7 +75,7 @@ The result is a lightweight self-serve tool that:
 - exports everything in a clean, predictable structure.
 
 <video autoplay muted loop playsinline preload="auto" class="case-hero">
-  <source src="image-resize-cover.mp4" type="video/mp4">
+  <source src="{{ page.media_path }}/image-resize-cover.mp4" type="video/mp4">
 </video>
 
 [Check Image resizer tool](https://envoy-byte-70400434.figma.site/){: target="_blank" rel="noopener noreferrer" }

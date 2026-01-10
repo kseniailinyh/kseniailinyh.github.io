@@ -3,10 +3,11 @@ layout: base
 title: "Help Center"
 body_class: case-study
 next_url: "/case-studies/image-resize/"
+media_path: "/assets/media/help-center"
 ---
 <div class="content" markdown="1">
 
-![Cover image for Help Center case study](help-center-cover.png)
+![Cover image for Help Center case study]({{ page.media_path }}/help-center-cover.png)
 
 [Kontur](https://kontur-inc.com/) is&nbsp;a&nbsp;B2B software company making 70&nbsp;online services for 2&nbsp;million businesses in&nbsp;Russia. Many product teams use Help Center&nbsp;&mdash; a&nbsp;universal tool for communication between clients and technical support, like Intercom. It&nbsp;consists of&nbsp;a&nbsp;messenger, contacts, ordering a&nbsp;callback, etc.
 
@@ -17,7 +18,7 @@ next_url: "/case-studies/image-resize/"
 
 Old design of&nbsp;Help Center:
 
-![Old design of Help Center](help-center-01.png)
+![Old design of Help Center]({{ page.media_path }}/help-center-01.png)
 
 My&nbsp;role was as&nbsp;an&nbsp;art director, and the designer was Ksenia Kokorina, Sergei Semin helped&nbsp;us with conceptual designs. We&nbsp;made some research and found references. I&nbsp;proposed the concept:
 
@@ -27,22 +28,22 @@ My&nbsp;role was as&nbsp;an&nbsp;art director, and the designer was Ksenia Kokor
 
 First drafts:
 
-![First draft of the Help Center redesign](help-center-02.png)
+![First draft of the Help Center redesign]({{ page.media_path }}/help-center-02.png)
 
 Also, I&nbsp;took into account the stages of&nbsp;implementation. Firstly, for taking care of&nbsp;users and not to&nbsp;shock them, and secondly, to&nbsp;make it&nbsp;easier for development:
 
-![Stages of implementation](help-center-03.png)
+![Stages of implementation]({{ page.media_path }}/help-center-03.png)
 
 To&nbsp;promote the Help Center among the products, I&nbsp;gathered all the 50&nbsp;designers, told them about the current problems of&nbsp;the widget, presented our concept and the final design. Designers were inspired, many wanted to&nbsp;use the new Help Center.
 
 Before and After:
 
-![Before and after of the Help Center redesign](help-center-04.png)
+![Before and after of the Help Center redesign]({{ page.media_path }}/help-center-04.png)
 
 In&nbsp;2021, the widget was opened by&nbsp;1.7 million users. Questions handled with the messenger increased from&nbsp;15% to&nbsp;22% after the redesign.
 
-![Help Center all states](help-center-05.png)
-![Help Center redesign interface](help-center-06.png)
-![Help Center customization](help-center-07.png)
+![Help Center all states]({{ page.media_path }}/help-center-05.png)
+![Help Center redesign interface]({{ page.media_path }}/help-center-06.png)
+![Help Center customization]({{ page.media_path }}/help-center-07.png)
 
 </div>

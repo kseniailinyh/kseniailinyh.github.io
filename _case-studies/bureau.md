@@ -3,10 +3,11 @@ layout: base
 title: "Bureau"
 body_class: case-study
 next_url: "/case-studies/class/"
+media_path: "/assets/media/bureau"
 ---
 <div class="content" markdown="1">
 
-![Cover image for Bureau case study](bureau-cover.png)
+![Cover image for Bureau case study]({{ page.media_path }}/bureau-cover.png)
 
 At&nbsp;Kontur, a&nbsp;leading SaaS provider in&nbsp;Russia with over 70&nbsp;product teams, I&nbsp;established a&nbsp;new design team called &laquo;Bureau&raquo;. Our purpose was to&nbsp;provide part-time design support for product teams without dedicated designers.
 

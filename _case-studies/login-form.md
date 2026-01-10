@@ -3,10 +3,11 @@ layout: base
 title: "Improving the Login Page"
 body_class: case-study
 next_url: "/case-studies/bureau/"
+media_path: "/assets/media/login-form"
 ---
 <div class="content" markdown="1">
 
-![Cover image for login form case study](login-form-cover.png)
+![Cover image for login form case study]({{ page.media_path }}/login-form-cover.png)
 
 ## Users contact support after failed logins
 
@@ -16,13 +17,13 @@ Blocked accounts were among the top-5 reasons for support requests. Users didn�
 
 There was no&nbsp;established process for reviewing support cases, so&nbsp;I&nbsp;took the initiative to&nbsp;explore them myself. I&nbsp;found that the login form was misleading – it&nbsp;didn’t clearly communicate what was happening or&nbsp;what users should do&nbsp;next.
 
-![Issues with initial login form](login-form-01.png)
+![Issues with initial login form]({{ page.media_path }}/login-form-01.png)
 
 ## Instead of&nbsp;a&nbsp;big redesign, I&nbsp;focused on&nbsp;high-impact fixes
 
 After discussing with developers, I&nbsp;realized that a&nbsp;full redesign would take too&nbsp;much time and resources. So&nbsp;instead, I&nbsp;focused on&nbsp;small, simple improvements with the highest potential impact. I&nbsp;prioritized these ideas, prepared visuals, and presented them to&nbsp;the product manager. 
 
-![Prioritized changes presentation](login-form-02.png)
+![Prioritized changes presentation]({{ page.media_path }}/login-form-02.png)
 
 The proposal was approved and added to&nbsp;the development scope.
 
@@ -32,8 +33,8 @@ The proposal was approved and added to&nbsp;the development scope.
 - Allowed password reset even for locked accounts  
 - Improved error wording and visual consistency  
 
-![Redesigned login form step 1](login-form-03.png)
-![Redesigned login form step 2](login-form-04.png)
+![Redesigned login form step 1]({{ page.media_path }}/login-form-03.png)
+![Redesigned login form step 2]({{ page.media_path }}/login-form-04.png)
 
 ## Approved for development and ready to&nbsp;measure results
 

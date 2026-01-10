@@ -56,6 +56,16 @@ a:hover {
     text-align: center;
 }
 
+.site-footer .footer-line,
+.site-footer .footer-mark {
+    display: block;
+}
+
+.site-footer .footer-spacer {
+    display: block;
+    height: 1.6vw;
+}
+
 .home .cover {
     display: flex;
     justify-content: center;
@@ -167,7 +177,7 @@ a:hover {
 .case-study .content {
     --case-pad-x: 5vw;
     max-width: 64vw;
-    padding: 1vw var(--case-pad-x);
+    padding: 1vw var(--case-pad-x) 6vw;
     margin: 0 auto;
 }
 
@@ -224,8 +234,8 @@ a:hover {
 
 .case-study img {
     max-width: 100%;
-    margin-top: 1vw;
-    margin-bottom: 1vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
 }
 
 .case-study .content img {
@@ -247,6 +257,8 @@ a:hover {
     box-sizing: border-box;
     margin-left: calc(var(--case-pad-x) * -1);
     margin-right: calc(var(--case-pad-x) * -1);
+    margin-top: 2vw;
+    margin-bottom: 2vw;
 }
 
 .case-study .video-container {
@@ -257,6 +269,8 @@ a:hover {
     border-radius: 16px;
     margin-left: calc(var(--case-pad-x) * -1);
     margin-right: calc(var(--case-pad-x) * -1);
+    margin-top: 2vw;
+    margin-bottom: 2vw;
 }
 
 .case-study .video-container iframe {
@@ -295,17 +309,34 @@ a:hover {
     .site-footer {
         max-width: 90vw;
         padding: 0 8vw 12vw;
-        text-align: left;
+        text-align: center;
+    }
+
+    .site-footer .footer-line,
+    .site-footer .footer-mark {
+        display: block;
+    }
+
+    .site-footer .footer-spacer {
+        display: block;
+        height: 6vw;
+    }
+
+    .site-footer .footer-line {
+        max-width: 30ch;
+        margin-left: auto;
+        margin-right: auto;
+        text-wrap: balance;
     }
 
     .home .cover img {
-        content: url('/public/cover-small.png');
+        content: url('/assets/media/cover-small.png');
         width: 100%;
         margin-top: 6vw;
     }
 
     .home .content {
-        max-width: 90vw;
+        max-width: 100%;
         padding: 5vw 8vw;
         margin-top: -12vw;
     }
@@ -345,7 +376,7 @@ a:hover {
 
     .case-study .content {
         --case-pad-x: 8vw;
-        max-width: 90vw;
+        max-width: 100%;
         padding: 2.5vw var(--case-pad-x) 14vw;
         margin-top: 8vw;
     }
@@ -362,5 +393,14 @@ a:hover {
     .case-study h2,
     .case-study h3 {
         font-size: inherit;
+    }
+
+    .case-study .content img,
+    .case-hero,
+    .case-study .video-container {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
     }
 }

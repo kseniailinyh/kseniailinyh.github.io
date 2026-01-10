@@ -8,39 +8,39 @@ next_url: "/case-studies/bureau/"
 
 ![Cover image for login form case study](login-form-cover.png)
 
-## Initiative
+## Users contact support after failed logins
 
-While there wasn't an&nbsp;established process for reviewing support cases in&nbsp;our company, I&nbsp;took the initiative to&nbsp;dive into them myself. I&nbsp;discovered a&nbsp;significant number of&nbsp;cases related to&nbsp;blocked accounts. Intrigued, I&nbsp;decided to&nbsp;investigate the login form's functionality.
+Blocked accounts were among the top-5 reasons for support requests. Users didn’t understand why they couldn’t log in&nbsp;, they weren’t informed that their account was locked after several failed attempts or&nbsp;that it&nbsp;would automatically unlock after 15&nbsp;minutes. As&nbsp;a&nbsp;result, they repeatedly contacted support instead of&nbsp;simply waiting.
 
-## The Issues
+## I&nbsp;noticed the pattern and decided to&nbsp;investigate
 
-It&nbsp;turned out the login form was poorly designed:
+There was no&nbsp;established process for reviewing support cases, so&nbsp;I&nbsp;took the initiative to&nbsp;explore them myself. I&nbsp;found that the login form was misleading – it&nbsp;didn’t clearly communicate what was happening or&nbsp;what users should do&nbsp;next.
 
-![Issue 1 with initial login form](login-form-01.png)
+![Issues with initial login form](login-form-01.png)
 
-- The form didn&rsquo;t show users passwords, so&nbsp;they can&rsquo;t be&nbsp;sure if&nbsp;it&nbsp;is&nbsp;correct or&nbsp;not.
-- It&nbsp;didn&rsquo;t warn users about account locking after several failed attempts.
-- The form didn&rsquo;t notify users when they were locked; it&nbsp;only notifies users about locking if&nbsp;they typed the correct password.
-- The locking lasts for 15&nbsp;minutes, but the form didn&rsquo;t warn users about&nbsp;it.
-- The form didn&rsquo;t allow password resets if&nbsp;the account was locked.
+## Instead of&nbsp;a&nbsp;big redesign, I&nbsp;focused on&nbsp;high-impact fixes
 
-These issues explained the high number of&nbsp;support requests. Moreover, there were error messages in&nbsp;different styles and with unclear wording.
+After discussing with developers, I&nbsp;realized that a&nbsp;full redesign would take too&nbsp;much time and resources. So&nbsp;instead, I&nbsp;focused on&nbsp;small, simple improvements with the highest potential impact. I&nbsp;prioritized these ideas, prepared visuals, and presented them to&nbsp;the product manager. 
 
-## Solution
+![Prioritized changes presentation](login-form-02.png)
 
-While tempted to&nbsp;redesign the entire form (and&nbsp;I redesigned&nbsp;it, but only for the portfolio case, the original form looks less appealing), I&nbsp;realized that small, targeted changes would be&nbsp;more efficient and quicker for the development team to&nbsp;implement.
+The proposal was approved and added to&nbsp;the development scope.
 
-![Redesigned login form step 1](login-form-04.png)
-![Redesigned login form step 2](login-form-05.png)
+## Key improvements
 
-I&nbsp;prioritized these changes based on&nbsp;their potential impact, drawing from my&nbsp;experience, and presented them to&nbsp;stakeholders.
+- Added clear messages explaining why the account is&nbsp;locked and for how long  
+- Allowed password reset even for locked accounts  
+- Improved error wording and visual consistency  
 
-![Prioritized changes presentation](login-form-06.png)
+![Redesigned login form step 1](login-form-03.png)
+![Redesigned login form step 2](login-form-04.png)
 
-## Project Status
+## Approved for development and ready to&nbsp;measure results
 
-The project was approved and is&nbsp;currently in&nbsp;development.
+The project was approved for implementation. Once released, I&nbsp;plan to&nbsp;track its effect by&nbsp;comparing the number of&nbsp;related support cases. I&nbsp;expect these small changes to&nbsp;make the login process clearer and reduce unnecessary support load.
 
-Although I&nbsp;can&rsquo;t present metrics yet, I&nbsp;plan to&nbsp;use the support case numbers as&nbsp;a&nbsp;baseline post-release. My&nbsp;hypothesis is&nbsp;that these small changes will enhance user experience providing clarity and transparency and, as&nbsp;a&nbsp;result, reduce support requests.
+## Small initiative, real impact
+
+This case shows how taking initiative and focusing on&nbsp;pragmatic UX improvements can meaningfully improve both user experience and business outcomes even without a&nbsp;full redesign.
 
 </div>

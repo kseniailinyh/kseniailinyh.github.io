@@ -103,6 +103,7 @@ a:hover {
 .home .big-block img {
     width: 100%;
     height: auto;
+    border-radius: 16px;
 }
 
 .home .big-block .case-preview,
@@ -245,6 +246,7 @@ a:hover {
     max-width: none;
     margin-left: calc(var(--case-pad-x) * -1);
     margin-right: calc(var(--case-pad-x) * -1);
+    border-radius: 16px;
 }
 
 .case-hero {
@@ -280,6 +282,21 @@ a:hover {
     width: 100%;
     height: 100%;
     border-radius: 16px;
+}
+
+.embedded-game {
+    width: calc(100% + (var(--case-pad-x) * 2));
+    height: 760px;
+    display: block;
+    max-width: none;
+    border: 2px solid #0e0e0e;
+    border-radius: 16px;
+    box-sizing: border-box;
+    margin-left: calc(var(--case-pad-x) * -1);
+    margin-right: calc(var(--case-pad-x) * -1);
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    background: #F4F4F2;
 }
 
 @media (max-width: 600px) {
@@ -397,10 +414,15 @@ a:hover {
 
     .case-study .content img,
     .case-hero,
-    .case-study .video-container {
+    .case-study .video-container,
+    .embedded-game {
         width: 100%;
         max-width: 100%;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .embedded-game {
+        height: 720px;
     }
 }

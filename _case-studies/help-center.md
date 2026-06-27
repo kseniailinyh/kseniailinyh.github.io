@@ -2,7 +2,7 @@
 layout: base
 title: "Help Center"
 body_class: case-study
-next_url: "/case-studies/image-resize/"
+next_url: "/case-studies/token-game/"
 media_path: "/assets/media/help-center"
 ---
 <div class="content" markdown="1">
